@@ -6,7 +6,7 @@ packages=(
   git
   python3
   wget
-  neovim
+  vim
   htop
   zsh
   shellcheck
@@ -30,6 +30,9 @@ printf "\nInstalling packages...\n\n"
 sudo apt update && sudo apt -y upgrade
 printf "%s\n" "${packages[@]}" | xargs -I % sudo apt -y install "%"
 
+# Install neovim (Debian neovim is outdated)
+./install_nvim.sh
+
 # Create github directories
 mkdir -p "${code_directory}/joe"
 mkdir -p "${code_directory}/ppanda"
@@ -37,7 +40,7 @@ mkdir -p "${code_directory}/ppanda"
 # Install dotfiles
 printf "\nInstalling dotfiles...\n\n"
 (
-  # Use http to clone to avoid ssh authentication, then set origin
+  # Use http to clone to avoid authentication, then set origin to ssh
   http_url="https://github.com/${github_username}/${dotfiles_repo}.git"
   ssh_url="git@github.com:${github_username}/${dotfiles_repo}.git"
   cd "${code_directory}/joe" || exit
@@ -48,3 +51,4 @@ printf "\nInstalling dotfiles...\n\n"
 
 printf "\nDone.\n"
 exit 0
+
