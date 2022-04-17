@@ -1,0 +1,152 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2022-01-10T23:28:07.264-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "Adobe.Acrobat.Reader.64-bit"
+				},
+				{
+					"PackageIdentifier" : "Lexikos.AutoHotkey"
+				},
+				{
+					"PackageIdentifier" : "Bitwarden.Bitwarden"
+				},
+				{
+					"PackageIdentifier" : "BleachBit.BleachBit"
+				},
+				{
+					"PackageIdentifier" : "eloston.ungoogled-chromium"
+				},
+				{
+					"PackageIdentifier" : "Debian.Debian"
+				},
+				{
+					"PackageIdentifier" : "DelugeTeam.Deluge"
+				},
+				{
+					"PackageIdentifier" : "Discord.Discord"
+				},
+				{
+					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
+				},
+				{
+					"PackageIdentifier" : "Figma.Figma"
+				},
+				{
+					"PackageIdentifier" : "flux.flux"
+				},
+				{
+					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "DuongDieuPhap.ImageGlass"
+				},
+				{
+					"PackageIdentifier" : "JetBrains.IntelliJIDEA.Community"
+				},
+				{
+					"PackageIdentifier" : "Oracle.JDK.17"
+				},
+				{
+					"PackageIdentifier" : "kalilinux.kalilinux"
+				},
+				{
+					"PackageIdentifier" : "LedgerHQ.LedgerLive"
+				},
+				{
+					"PackageIdentifier" : "Logitech.GHUB"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Office"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "Mojang.MinecraftLauncher"
+				},
+				{
+					"PackageIdentifier" : "Mozilla.Firefox"
+				},
+				{
+					"PackageIdentifier" : "Mozilla.Thunderbird"
+				},
+				{
+					"PackageIdentifier" : "Notepad++.Notepad++"
+				},
+				{
+					"PackageIdentifier" : "NZXT.CAM"
+				},
+				{
+					"PackageIdentifier" : "OBSProject.OBSStudio"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "ProtonTechnologies.ProtonMailBridge"
+				},
+				{
+					"PackageIdentifier" : "ProtonTechnologies.ProtonVPN"
+				},
+				{
+					"PackageIdentifier" : "Python.Python.3"
+				},
+				{
+					"PackageIdentifier" : "QL-Win.QuickLook"
+				},
+				{
+					"PackageIdentifier" : "ShareX.ShareX"
+				},
+				{
+					"PackageIdentifier" : "SlackTechnologies.Slack"
+				},
+				{
+					"PackageIdentifier" : "OpenWhisperSystems.Signal"
+				},
+				{
+					"PackageIdentifier" : "Spotify.Spotify"
+				},
+				{
+					"PackageIdentifier" : "StandardNotes.StandardNotes"
+				},
+				{
+					"PackageIdentifier" : "Valve.Steam"
+				},
+				{
+					"PackageIdentifier" : "VideoLAN.VLC"
+				},
+				{
+					"PackageIdentifier" : "Oracle.VirtualBox"
+				},
+				{
+					"PackageIdentifier" : "Synology.DriveClient"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "Zoom.Zoom"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://winget.azureedge.net/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion" : "1.1.13405"
+}
