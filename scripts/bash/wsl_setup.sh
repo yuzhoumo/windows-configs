@@ -5,9 +5,12 @@ packages=(
   curl
   git
   python3
+  python3-pip
   wget
   vim
   htop
+  fzf
+  universal-ctags
   zsh
   shellcheck
 )
@@ -40,7 +43,7 @@ mkdir -p "${code_directory}/ppanda"
 # Install dotfiles
 printf "\nInstalling dotfiles...\n\n"
 (
-  # Use http to clone to avoid authentication, then set origin to ssh
+  # Use http to clone to avoid authentication, then set origin to use ssh
   http_url="https://github.com/${github_username}/${dotfiles_repo}.git"
   ssh_url="git@github.com:${github_username}/${dotfiles_repo}.git"
   cd "${code_directory}/joe" || exit
@@ -50,5 +53,4 @@ printf "\nInstalling dotfiles...\n\n"
 )
 
 printf "\nDone.\n"
-exit 0
 
